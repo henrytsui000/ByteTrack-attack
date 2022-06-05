@@ -9,7 +9,7 @@
 * [TraSw for FairMOT](https://github.com/DerryHub/FairMOT-attack)
 
 ## Colab Demo
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bDilg4cmXFa8HCKHbsZ_p16p0vrhLyu0?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/henrytsui000/ByteTrack-attack/blob/main/colab.ipynb)
 
 ## Abstract
 
