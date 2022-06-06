@@ -3226,7 +3226,7 @@ class BYTETracker(object):
                 attack_det_center = torch.stack(
                     [attack_outputs_ind % Ws[attack_i], torch.div(attack_outputs_ind, Ws[attack_i])]).float().cuda()
                 target_det_center = torch.stack(
-                    [target_outputs_ind % Ws[target_i], torch.div(target_outputs_ind // Ws[target_i])]).float().cuda()
+                    [target_outputs_ind % Ws[target_i], torch.div(target_outputs_ind, Ws[target_i])]).float().cuda()
                 if attack_det_center_max is None:
                     attack_det_center_max = torch.round(attack_det_center * 2 ** attack_i).int()
                     attack_det_center_mid = torch.round(attack_det_center_max / 2).int()
