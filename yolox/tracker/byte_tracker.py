@@ -3118,7 +3118,7 @@ class BYTETracker(object):
                         suc = 2
                 break
 
-        adImg = cv2.imread(os.path.join(self.args.img_dir, "test", img_info[-1][0]))
+        adImg = cv2.imread(os.path.join(self.args.img_dir, img_info[-1][0]))
         if noise is not None:
             l2_dis = (noise ** 2).sum().sqrt().item()
 
